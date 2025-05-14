@@ -29,8 +29,8 @@ DB_PORT = os.getenv("DB_PORT")
 # Параметры Telegram-бота
 # ----------------------------------
 # ВАЖНО: Токен должен содержать двоеточие в формате вида 123456789:ABC-DEF....
-TG_BOT_TOKEN = "7896558929:AAEV3zi86WME9cBi_7VZOafvrkpXSfZTOwI"
-CHAT_ID = "-1002296167815"  # Укажите нужный Chat ID
+TG_BOT_TOKEN = ""
+CHAT_ID = ""  # Укажите нужный Chat ID
 bot = telebot.TeleBot(TG_BOT_TOKEN)
 
 # ----------------------------------
