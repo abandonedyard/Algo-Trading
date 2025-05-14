@@ -14,14 +14,14 @@ import pandas as pd
 import psycopg2
 
 # ПАРАМЕТРЫ БД
-PG_HOST = "212.67.12.174"
-PG_PORT = 5432
-PG_DBNAME = "o2"
-PG_USER = "postgres"
-PG_PASSWORD = "9mX!dA@45NzP#qLt"
+PG_HOST = ""
+PG_PORT = ""
+PG_DBNAME = ""
+PG_USER = ""
+PG_PASSWORD = ""
 
 # КАТАЛОГ ДЛЯ CSV
-OUTPUT_DIR = "/Users/danil/Desktop/DataScience/O2/Разметка/DE/"
+OUTPUT_DIR = ""
 
 
 def get_symbol_data(conn, symbol, start_time, end_time):
