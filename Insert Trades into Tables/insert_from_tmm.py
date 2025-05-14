@@ -4,11 +4,11 @@ import psycopg2
 def main():
     # Параметры подключения к PostgreSQL
     conn = psycopg2.connect(
-        dbname="o2",
-        user="postgres",
-        password="9mX!dA@45NzP#qLt",
-        host="212.67.12.174",
-        port="5432"
+        dbname="",
+        user="",
+        password="",
+        host="",
+        port=""
     )
     cur = conn.cursor()
 
